@@ -19,5 +19,5 @@ after_success:
 #push the images to docker hub
   - docker push mariustudor/multi-client
   - docker push mariustudor/multi-nginx
-  - docker push ariustudor/multi-server
+  - docker push mariustudor/multi-server
   - docker push mariustudor/multi-worker
