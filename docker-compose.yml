@@ -3,7 +3,6 @@ services:
   postgress:
     image: 'postgres:latest'
 
-
   redis:
     image: "redis:latest"
 
@@ -55,4 +54,4 @@ services:
       dockerfile: Dockerfile.dev
       context: ./nginx
     ports:
-      - '8181:80'
+      - '3050:80'
